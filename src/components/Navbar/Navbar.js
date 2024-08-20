@@ -55,7 +55,7 @@ export default function Navbar() {
                 </MenuItem>
               </MenuItems>
             </Menu>
-            <Link className='py-2 px-4 rounded-full bg-gradient-to-tr text-white from-blue-700  to-sky-400'>Login</Link>
+            <Link to="/login" className='py-2 px-4 rounded-full bg-gradient-to-tr text-white from-blue-700  to-sky-400'>Login</Link>
             <button className='md:hidden' onClick={toggleNavbar}>
                   {isClick ? (
                     
