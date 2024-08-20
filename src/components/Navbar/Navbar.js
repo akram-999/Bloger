@@ -38,8 +38,14 @@ export default function Navbar() {
               >
                 <MenuItem>
                   <a href="#" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
-                    Your Profile
+                    Profile
                   </a>
+                </MenuItem>
+
+                <MenuItem>
+                  <Link to="/createblog" className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100">
+                    Create Blog
+                  </Link>
                 </MenuItem>
                
                 <MenuItem>
