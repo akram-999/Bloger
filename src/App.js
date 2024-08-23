@@ -7,6 +7,7 @@ import Login from './pages/Login'
 import Blog from './pages/Blog';
 import Register from './pages/Register'
 import CreateBlog from './pages/CreateBlog';
+import Profil from './pages/Profile';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
            <Route path='/contact' element={<Contact />} />
            <Route path='/login' element={<Login />} />
            <Route path='/register' element={<Register />} />
+           <Route path='/profile' element={<Profil />} />
            <Route path='/createblog' element={<CreateBlog />} />
         </Routes>
   );
