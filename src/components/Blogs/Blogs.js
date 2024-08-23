@@ -30,7 +30,7 @@ export default function Blogs() { return (
                       {product.category}
                       </p>
                       <Link to={`/blog/${product.id}`}>
-                        <h3 className="text-lg font-medium text-gray-900">{product.title}</h3>
+                        <h3 className="text-lg font-medium text-gray-900 hover:text-orange-400">{product.title}</h3>
                       </Link>
 
                       <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
